@@ -10,6 +10,7 @@ import FAQ from "@/components/FAQ/FAQ";
 export default function Home() {
   return (
     <main className={styles.main}>
+      <div className={styles.paddedBlock}></div>
       <HeroSection/>
       <Carousel/>
       <PopularCars/>

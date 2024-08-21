@@ -34,24 +34,30 @@
   }
   
   .mobilePickupOptions {
+    padding-top: 50px;
     display: flex !important;
     align-items: center;
     width: 100%;
     flex-direction: column;
     justify-content: center;
     row-gap: 10px;
+    position: relative;
   }
   
   .primaryPickupDetails {
-    width: 100%;
+    width: 100dvw;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+    position: absolute;
+    overflow: visible;
+    top: 0;
   }
   
   .primaryPickupDetails span {
     font-size: 12px;
+    text-align: center;
     color: #4946468c;
   }
   
@@ -74,6 +80,7 @@
     outline: none;
     border: none;
   }
+
 
   .location, .pickupTime {
     padding-left: 20px;

@@ -58,7 +58,7 @@ const MobilePickup: React.FC = () => {
                 </div>
 
                 {/* Pickup location selector */}
-                <div className={styles.location}>
+                <div className={styles.location} id='pickupLocation'>
                     <img src="Photos/icons/map-logo.svg" alt="" className={styles.mapPin} />
                     <select name="place" id="" className={styles.locationList}>
                         <option value="" disabled selected>
