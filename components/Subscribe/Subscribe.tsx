@@ -12,7 +12,7 @@ const Subscribe: React.FC = () => {
                         <input type="text" id="email" required placeholder="Email" />
                     </div>
                     <p className={styles.subscribePara}>
-                        Don't miss out! Enter your email and your name, then hit subscribe to unlock a world of special offers and details.
+                        Don t miss out! Enter your email and your name, then hit subscribe to unlock a world of special offers and details.
                     </p>
                     <button type="submit">Subscribe</button>
                 </form>
