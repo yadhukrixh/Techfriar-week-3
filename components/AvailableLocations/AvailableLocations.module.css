@@ -64,6 +64,7 @@
       text-align: left;
     }
     .ourLocations {
+      margin-bottom: 40px;
       margin-top: 20px;
       display: grid;
       width: 100%;

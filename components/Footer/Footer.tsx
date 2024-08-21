@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Footer.module.css';
-
+import Link from 'next/link';
 const Footer: React.FC = () => {
     
     return (
@@ -15,17 +15,17 @@ const Footer: React.FC = () => {
                     <div className={styles.footerLinks}>
                         <div className={styles.footerColumn}>
                             <ul>
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#">Offers</a></li>
-                                <li><a href="#">FAQ</a></li>
-                                <li><a href="#">Career</a></li>
-                                <li><a href="#">About Us</a></li>
-                                <li><a href="#">Locations</a></li>
-                                <li><a href="#">Privacy Policy</a></li>
-                                <li><a href="#">Term & Conditions</a></li>
-                                <li><a href="#">Services</a></li>
-                                <li><a href="#">Contact US</a></li>
-                                <li><a href="#">Service Request</a></li>
+                                <li><Link href="#">Home</Link></li>
+                                <li><Link href="#">Offers</Link></li>
+                                <li><Link href="#">FAQ</Link></li>
+                                <li><Link href="#">Career</Link></li>
+                                <li><Link href="#">About Us</Link></li>
+                                <li><Link href="#">Locations</Link></li>
+                                <li><Link href="#">Privacy Policy</Link></li>
+                                <li><Link href="#">Term & Conditions</Link></li>
+                                <li><Link href="#">Services</Link></li>
+                                <li><Link href="#">Contact US</Link></li>
+                                <li><Link href="#">Service Request</Link></li>
                             </ul>
                         </div>
 
@@ -33,12 +33,12 @@ const Footer: React.FC = () => {
                             
                             <p>Al Habtoor Company List</p>
                             <ul>
-                                <li><a href="#">Education</a></li>
-                                <li><a href="#">Publishing</a></li>
-                                <li><a href="#">Hospitality</a></li>
-                                <li><a href="#">Real Estate</a></li>
-                                <li><a href="#">Automotive</a></li>
-                                <li><a href="#">Vehicle Leasing</a></li>
+                                <li><Link href="#">Education</Link></li>
+                                <li><Link href="#">Publishing</Link></li>
+                                <li><Link href="#">Hospitality</Link></li>
+                                <li><Link href="#">Real Estate</Link></li>
+                                <li><Link href="#">Automotive</Link></li>
+                                <li><Link href="#">Vehicle Leasing</Link></li>
                             </ul>
                         </div>
                     </div>
@@ -82,17 +82,17 @@ const Footer: React.FC = () => {
                         </div>
                     </div>
                     <div className={styles.mobileFooterLinks}>
-                        <a href="#">Home</a>
-                        <a href="#">Offers</a>
-                        <a href="#">Career</a>
-                        <a href="#">About Us</a>
-                        <a href="#">Locations</a>
-                        <a href="#">FAQ</a>
-                        <a href="#">Terms & Conditions</a>
-                        <a href="#">Service Request</a>
-                        <a href="#">Privacy Policy</a>
-                        <a href="#">Services</a>
-                        <a href="#">Contact Us</a>
+                        <Link href="#"><a>Home</a></Link>
+                        <Link href="#"><a>Offers</a></Link>
+                        <Link href="#"><a>Career</a></Link>
+                        <Link href="#"><a>About Us</a></Link>
+                        <Link href="#"><a>Locations</a></Link>
+                        <Link href="#"><a>FAQ</a></Link>
+                        <Link href="#"><a>Terms & Conditions</a></Link>
+                        <Link href="#"><a>Service Request</a></Link>
+                        <Link href="#"><a>Privacy Policy</a></Link>
+                        <Link href="#"><a>Services</a></Link>
+                        <Link href="#"><a>Contact Us</a></Link>
                     </div>
                 </div>
 

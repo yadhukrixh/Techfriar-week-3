@@ -87,7 +87,7 @@
 .bookButton {
     padding: 0;
     width: 60px;
-    font-size: 11px;
+    font-size: calc(0.9dvw);
     height: 25px;
     background-color: #e21e26;
     border: none;
@@ -190,5 +190,9 @@
         align-items: flex-start;
         margin-left: 10px;
         margin-bottom: 10px;
+    }
+
+    .bookButton{
+        font-size: 11px;
     }
 }

@@ -1,5 +1,4 @@
 'use client';
-
 import React, { useState } from 'react';
 import Link from 'next/link';
 import styles from './NavBar.module.css';
@@ -99,12 +98,12 @@ const NavBar: React.FC = () => {
                     <div className={`${isNavBarActive?styles.active:''}`} style={{ display: "none" }}    >
                         <button className={styles.closeButton} id="navControl" onClick={navBarController}>&times;</button>
                         <ul className={styles.mobileMenu}>
-                            <li>About Us</li>
-                            <li>Offers</li>
-                            <li>Corporate</li>
-                            <li>Personal</li>
-                            <li>Locations</li>
-                            <li>Contact us</li>
+                            <li><Link href="#">About Us</Link></li>
+                            <li><Link href="#">Offers</Link></li>
+                            <li><Link href="#">Corporate</Link></li>
+                            <li><Link href="#">Personal</Link></li>
+                            <li><Link href="#">Locations</Link></li>
+                            <li><Link href="#">Contact us</Link></li>
                         </ul>
                         <button className={styles.loginButton}>Log In/Sign Up</button>
                     </div>

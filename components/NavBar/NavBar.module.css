@@ -253,11 +253,19 @@
         margin-top: 20px;
         font-weight: 600;
     }
+
+    .mobileMenu a{
+        display: flex;
+        height: 70px;
+        align-items: center;
+        border-bottom: 0.5px solid #acacac;
+    }
     
     .meobileMenu li {
+        height: 20px;
+        height: max-content;
         margin-left: 20px;
         padding: 15px 0;
-        border-bottom: 1px solid #eaeaea;
         cursor: pointer;
         width: 100%;
         font-size: 20px !important;
@@ -265,10 +273,11 @@
     
     .loginButton {
         background-color: black;
-        
         color: white;
-        padding: 15px;
-        width: 200px;
+        padding: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        width: max-content;
         border: none;
         border-radius: 20px;
         font-size: 16px;
@@ -278,7 +287,7 @@
         left: 20px;
         right: 20px;
     }
-    
+
     .navControl{
         display: flex !important;
     }

@@ -53,19 +53,20 @@
 
 .footerColumn ul {
     display: grid;
-    grid-template-columns: repeat(4, 120px);
+    grid-template-columns: repeat(4, 140px);
     list-style: none;
     padding: 0;
 }
 
 .footerColumn ul li {
-    font-size: 13px;
+    font-size: 12px;
     margin-bottom: 10px;
 }
 
 .footerColumn ul li a,
 .AlHabthoorCompanyList ul li a {
     color: #fff;
+    width: max-content;
     text-decoration: none;
     font-size: calc(1dvw);
 }
