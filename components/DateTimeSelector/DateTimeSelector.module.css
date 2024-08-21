@@ -1,0 +1,74 @@
+.pickupTime {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border-radius: 20px;
+  height: calc(2.91dvw);
+  width: calc(13dvw);
+  font-size: calc(.83dvw);
+  position: relative;
+}
+
+.dateTimeSelector{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 8px;
+  align-items: center;
+
+}
+
+.icon {
+  margin-right: 10px;
+}
+
+.calenderIcon {
+  width:calc(0.83dvw);
+  height: calc(0.83dvw);
+}
+
+.dateTime {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  column-gap: 10px;  
+}
+
+.date,.time{
+  font-size: calc(0.83dvw);
+}
+
+
+
+.dateTimePicker {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+  z-index: 1000;
+}
+
+.dateTimePicker input {
+  margin-bottom: 10px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.dateTimePicker button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007BFF;
+  color: #fff;
+  cursor: pointer;
+}
+
+

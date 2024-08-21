@@ -1,0 +1,247 @@
+.subscribe {
+    margin-top: calc(2.77dvw);
+    margin-left: calc(2dvw);
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-right: 64px;
+}
+
+.offersSubscribe {
+    margin-left: calc(7dvw);
+    margin-top: calc(5.41dvw);
+    display: flex;
+    flex-direction: column;
+}
+
+.offersSubscribe h2 {
+    width: calc(38.19dvw);
+    font-size: calc(2.36dvw);
+    font-weight: 300;
+    margin: 0;
+}
+
+.subscribeForm {
+    margin-top: calc(2.84dvw);
+}
+
+.subscribeForm div {
+    display: flex;
+    flex-direction: row;
+}
+
+.nameEmail {
+    display: flex;
+    flex-direction: column;
+    column-gap: calc(1.25dvw);
+}
+
+.nameEmail input {
+    outline: none;
+    border: none;
+    width: calc(15.48dvw);
+    height: calc(3.125dvw);
+    padding: 5px;
+    background-color: #F8F8F8;
+    border-radius: 5px;
+}
+
+.subscribePara {
+    width: calc(33.194dvw);
+    height: calc(2.91dvw);
+    font-size: calc(0.97dvw);
+    font-weight: 300;
+}
+
+.subscribeForm button {
+    width: calc(33.19dvw);
+    height: calc(4.07dvw);
+    outline: none;
+    border: none;
+    background-color: #E21E26;
+    border-radius: 5px;
+    color: #fff;
+    font-size: calc(1.12dvw);
+    font-weight: 400;
+}
+
+.appDownloadLink {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #E21E26;
+    width: 100%;
+    height: calc(35.13dvw);
+    margin-right: 15px;
+}
+
+.appDownloadLink img {
+    margin: calc(3.33dvw);
+    width: calc(16.04dvw);
+    height: calc(28.95dvw);
+}
+
+.numberInput{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.linkShare {
+    display: flex;
+    flex-direction: column;
+}
+
+.linkShare p {
+    width: calc(16.18dvw);
+    height: calc(2.98dvw);
+    color: #fff;
+    font-size: calc(0.97dvw);
+    font-weight: 400;
+}
+
+.linkShare input {
+    width: calc(16dvw);
+    font-size: 10px;
+    height: calc(3.125dvw);
+    border-radius: 5px;
+    padding-left: 8px;
+    outline: none;
+    border: none;
+}
+
+.linkShare button {
+    margin-top: calc(1.66dvw);
+    width: calc(10dvw);
+    height: calc(2.91dvw);
+    border: none;
+    font-size: calc(1dvw);
+    outline: none;
+    background-color: #000;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.playstoreAppstore {
+    display: inline-flex;
+    column-gap: calc(0.5dvw);
+}
+
+.playstoreAppstore p {
+    height: 21px;
+}
+
+.playstoreAppstore img {
+    margin: 0;
+    width: calc(7.152dvw);
+    height: calc(2.08dvw);
+}
+
+/* Media Queries */
+@media (max-width: 650px) {
+    .subscribe {
+        width: 100%;
+        margin: 0;
+        padding-left: 20px;
+        padding-right: 20px;
+        flex-direction: column;
+    }
+
+    .offersSubscribe {
+        margin-top: 20px;
+    }
+
+    .offersSubscribe h2 {
+        font-size: 16px;
+        text-align: left;
+        width: 227px;
+        font-weight: 500;
+    }
+
+    .nameEmail {
+        width: 100%;
+        flex-direction: column !important;
+        row-gap: 8px;
+    }
+
+    .nameEmail input {
+        width: 328px;
+        height: 50px;
+    }
+
+    .subscribePara {
+        font-size: 12px;
+        width: 328px;
+        height: 60px;
+    }
+
+    .subscribeForm{
+        margin: 0 !important;
+    }
+
+    .subscribeForm button {
+        width: 128px;
+        height: 38px;
+        font-size: 13px;
+        margin-bottom: 20px;
+    }
+
+    .appDownloadLink {
+        padding-top: 30px;
+        margin: 0;
+        justify-content: center;
+        align-items: flex-start;
+        height: 390px;
+        width: 100%;
+    }
+
+    .appDownloadLink img {
+        margin: 0;
+        width: 136px;
+        height: 245px;
+    }
+
+    .linkShare {
+        flex-direction: column-reverse;
+        position: relative;
+        row-gap: 20px;
+    }
+
+    .numberInput{
+        position: absolute;
+        top: 250px;
+        left: -120px;
+        width: 250px;
+    }
+
+    .linkShare div p {
+        margin-top: 15px !important;
+        height: 50px;
+        font-size: 12px;
+        width: 143px;
+    }
+
+    .linkShare button {
+        width: 120px;
+        height: 40px;
+        font-size: 13px;
+    }
+
+    .linkShare input {
+        height: 48px;
+        width: 100%;
+    }
+
+    .playstoreAppstore {
+        flex-direction: column;
+    }
+
+    .playstoreAppstore p {
+        margin-top: 20px;
+    }
+
+    .playstoreAppstore img {
+        height: 30px;
+        width: 100px;
+    }
+}

@@ -1,0 +1,101 @@
+.bookingButtonsForMobile {
+    margin: 16px 0;
+    width: 100%;
+    justify-content: center;
+    display: flex !important;
+    column-gap: 8px;
+  }
+
+  .active{
+    background-color: #E21E26 !important;
+    color: #fff !important;
+  }
+  
+  .bookingButtonsForMobile button, .searchVehicle {
+    background-color: #fff;
+    border: 2px solid #E21E26;
+    font-size: 13px;
+    font-weight: 500;
+    border-radius: 4px;
+    color: #E21E26;
+    outline: none;
+    width: calc(50dvw);
+    height: 38px;
+  }
+  
+  .searchVehicle {
+    background-color: #E21E26;
+    color: #fff;
+  }
+  
+  .bookingButtonsForMobile .bookACarActive {
+    background-color: #E21E26;
+    color: #fff;
+  }
+  
+  .mobilePickupOptions {
+    display: flex !important;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 10px;
+  }
+  
+  .primaryPickupDetails {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .primaryPickupDetails span {
+    font-size: 12px;
+    color: #4946468c;
+  }
+  
+  .pickupLocationActive {
+    color: #000 !important;
+    border-bottom: 2px solid #000;
+  }
+  
+  .vehicleType {
+    outline: none;
+    border: none;
+    font-size: 12px;
+    color: #000;
+    outline: none;
+  }
+  
+  .locationList{
+    background-color: transparent;
+    width: 100%;
+    outline: none;
+    border: none;
+  }
+
+  .location, .pickupTime {
+    padding-left: 20px;
+    width: 100% !important;
+    height: 42px;
+    align-items: center;
+    background-color: #F6F7F9;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .pickupTime {
+    height: 42px;
+    font-size: 13px;
+    justify-content: flex-start;
+  }
+  
+  .pickupTime .icon {
+    width: 20px;
+    height: 20px;
+  }
+  
+
+  

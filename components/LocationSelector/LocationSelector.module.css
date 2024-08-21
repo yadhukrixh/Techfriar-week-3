@@ -1,0 +1,38 @@
+.location{
+    font-size: calc(.83dvw);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+    background-color: #fff;
+    height: 100%;
+    width: calc(13dvw);
+    height: calc(2.91dvw);
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+.location select{
+    font-size: calc(0.83dvw);
+    background-color: transparent;
+    outline: none;
+    border: none;
+    margin-right: 10px;
+}
+
+.location-list{
+    background-color: transparent;
+    border: none;
+    outline: revert;
+    color:#000;
+    width: 100%;
+}
+.location img{
+    width: calc(0.83dvw);
+    height: calc(0.83dvw);
+}

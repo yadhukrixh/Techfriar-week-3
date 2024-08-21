@@ -1,0 +1,176 @@
+.hero {
+  margin-top: calc(10dvw + 20px);
+   padding: 20px;
+   padding-left: 64px;
+   padding-right: 64px;
+    width: 100%;
+  }
+  
+  .quickPickup {
+    width: 100%;
+    height: calc(16dvw);
+    background-image: url("/Photos/quick-book-background.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: calc(1.31dvw);
+  }
+  
+  .pickupOptions {
+    display: flex;
+    flex-direction: row;
+    column-gap: calc(1.33dvw);
+    font-size: calc(1dvw);
+    padding-left: calc(5.625dvw);
+    color: #fff;
+  }
+  
+  .vehicleType {
+    cursor: pointer;
+    font-size: calc(1dvw);
+    background-color: #ffffff33;
+    color: #fff;
+    border: none;
+    padding: 3px;
+    border-radius: 15px;
+  }
+
+  .vehicleType option{
+    color: #000 !important;
+  }
+  
+  
+  .pickupLink {
+    all: unset;
+    color: #c0baba;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .pickupLink:focus {
+    color: #fff;
+  }
+  
+  .pickupLink:focus .line {
+    display: block;
+  }
+  
+  .line {
+    display: none;
+    width: 100%;
+    border-radius: 2px;
+    height: 2px;
+    background-color: #fff;
+  }
+  
+  .additionalDetails {
+    padding-left: calc(5.6dvw);
+    column-gap: calc(1dvw);
+    display: flex;
+    flex-direction: row;
+    height: calc(2.91dvw);
+    width: max-content;
+  }
+  
+
+  
+
+  .searchButton{
+    height: calc(2.91dvw);
+    width: calc(4.4dvw);
+    background-color: #fff;
+    border-radius: 20px;
+    display: grid;
+    justify-content: center;
+  }
+
+  .searchButton button{
+    outline: none;
+    border: none;
+    background-color: transparent;
+  }
+
+  
+  .searchButton img {
+    width: calc(1.80dvw);
+    height: calc(1.80dvw)
+  }
+  
+  .verticalLine {
+    border-left: 2px solid #c0baba;
+    margin-left: 10px;
+  }
+  
+  .quickBook button {
+    all: unset;
+    color: #fff;
+    height: calc(2.91dvw);
+    width: calc(16.11dvw);
+    font-size: 1.11dvw;
+    font-weight: 500;
+    cursor: pointer;
+    border: 2px solid white;
+    border-radius: 18px;
+    text-align: center;
+  }
+  
+  .downloadLinks {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 5px;
+    align-items: center ;
+  }
+  
+  .downloadDescription {
+    color: #fff;
+    font-weight: 200;
+    text-align: center;
+    font-size: calc(0.97dvw);
+    margin-left: calc(5.625dvw);
+  }
+  
+  .downloadLinks img {
+    width: calc(5dvw);
+    height: auto;
+    cursor: pointer;
+  }
+
+  @media(max-width:650px){
+
+    .hero{
+      padding-left: 20px;
+      padding-right: 20px !important;
+    }
+    .pickupOptions, .additionalDetails {
+      display: none !important;
+    }
+    
+    .mobilePickup{
+      display: block !important;
+    }
+
+    .quickPickup{
+      height: calc(33.33dvw);
+    }
+
+    .downloadLinks{
+      flex-direction: column;
+    }
+
+    .downloadLinks img{
+      width: calc(33.33dvw);
+    }
+
+    .downloadDescription{
+      font-size: calc(3.61dvw);
+      padding-bottom: 10px;
+      font-weight: 400;
+    }
+    
+  }
+  
