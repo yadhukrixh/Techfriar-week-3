@@ -1,0 +1,94 @@
+.availableLocations {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000;
+    max-height: 400px;
+    color: #fff;
+    margin-left: 64px;
+    margin-right: 64px;
+  }
+  
+  .availableLocations h2 {
+    margin-top: calc(3.88dvw);
+    font-size: calc(2.21dvw);
+    font-weight: 300;
+    margin-bottom: 0;
+  }
+  
+  .ourLocations {
+    display: flex;
+    height: calc(17dvw);
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .verticalLine {
+    height: calc(2.847dvw);
+    width: 1px;
+    background-color: #ffffff34;
+  }
+  
+  .eachLocation {
+    width: calc(13.99dvw);
+    height: 29px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    column-gap: calc(1.2dvw);
+    margin-left: calc(2.36dvw);
+  }
+  
+  .eachLocation img {
+    width: 22px;
+    height: 28px;
+  }
+  
+  .eachLocation p {
+    font-size: calc(1.38dvw);
+    font-weight: 300;
+  }
+  
+  @media (max-width: 650px) {
+    .availableLocations{
+      padding-left: 10px;
+      padding-right: 10px;
+      align-items: flex-start;
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+
+    .availableLocations h2{
+      margin-left: 10px;
+      font-size: 16px;
+      text-align: left;
+    }
+    .ourLocations {
+      margin-top: 20px;
+      display: grid;
+      width: 100%;
+      height: max-content;
+      grid-template-columns: repeat(auto-fit, 100px);
+      column-gap: 30px;
+      row-gap: 20px;
+    }
+  
+    .verticalLine {
+      display: none;
+    }
+  
+    .eachLocation img {
+      width: 14px;
+      height: 17px;
+    }
+
+    .eachLocation{
+      width: 200px;
+    }
+  
+    .eachLocation p {
+      margin: 0;
+      font-size: 14px !important;
+    }
+  }
+  

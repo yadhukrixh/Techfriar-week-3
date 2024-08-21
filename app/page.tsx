@@ -5,7 +5,7 @@ import Carousel from "@/components/Carousel/Carousel";
 import PopularCars from "@/components/PopularCars/PopularCars";
 import Subscribe from "@/components/Subscribe/Subscribe";
 import RentalSteps from "@/components/RentalSteps/RentalSteps";
-
+import AvailableLocations from "@/components/AvailableLocations/AvailableLocations";
 export default function Home() {
   return (
     <main className={styles.main}>
@@ -14,6 +14,7 @@ export default function Home() {
       <PopularCars/>
       <Subscribe/>
       <RentalSteps/>
+      <AvailableLocations/>
     </main>
   );
 }
