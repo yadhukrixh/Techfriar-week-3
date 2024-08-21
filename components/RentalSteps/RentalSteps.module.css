@@ -1,0 +1,100 @@
+.rentalSteps {
+    margin-top: calc(2.77dvw);
+    padding: 0;
+    text-align: center;
+  }
+  
+  .rentalSteps h2 {
+    font-size: calc(2.36dvw);
+    font-weight: 400;
+  }
+  
+  .threeSteps {
+    display: flex;
+    flex-direction: row;
+    column-gap: calc(3.47dvw);
+    justify-content: center;
+  }
+  
+  .steps {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .stepId {
+    width: calc(4.44dvw);
+    height: calc(3.61dvw);
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin-bottom: 8px;
+    font-size: calc(2.77dvw);
+    color: #e21e26;
+  }
+  
+  .stepBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: calc(24.16dvw);
+    height: calc(12.36dvw);
+    border: 2px solid #000;
+  }
+  
+  .stepBlock img {
+    width: calc(3.194dvw);
+    height: calc(3.194dvw);
+    margin-top: 16px;
+  }
+  
+  .stepBlock p {
+    font-size: calc(0.83dvw);
+    width: calc(10dvw);
+  }
+  
+  @media (max-width: 650px) {
+    .rentalSteps h2 {
+      font-size: 16px;
+      text-align: left;
+      font-weight: 500;
+    }
+  
+    .threeSteps {
+      flex-direction: column;
+    }
+  
+    .stepId {
+      font-size: 28px;
+      width: 35px;
+      height: 35px;
+    }
+  
+    .stepBlock {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: 167px;
+      width: 80%;
+    }
+  
+    .stepBlock img {
+      width: 50px;
+      height: 50px;
+    }
+  
+    .stepBlock p {
+      font-size: 13px;
+      width: 210px;
+    }
+  
+    .avialable-locations {
+      align-items: flex-start;
+      height: 200px;
+      width: 100%;
+    }
+  }
+  

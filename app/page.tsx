@@ -5,6 +5,7 @@ import Carousel from "@/components/Carousel/Carousel";
 import PopularCars from "@/components/PopularCars/PopularCars";
 import SlideInButton from "@/components/SlideInButtons/SlideInButton";
 import Subscribe from "@/components/Subscribe/Subscribe";
+import RentalSteps from "@/components/RentalSteps/RentalSteps";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Carousel/>
       <PopularCars/>
       <Subscribe/>
+      <RentalSteps/>
     </main>
   );
 }
