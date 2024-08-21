@@ -231,7 +231,7 @@
         position: fixed;
         top: 0;
         right: 0;
-        height: 800px;
+        height: 600px;
         padding: 20px;
         box-shadow: -80px 50px 20px 1000px rgba(0, 0, 0, 0.664);
         animation: reveal 0.8s;
