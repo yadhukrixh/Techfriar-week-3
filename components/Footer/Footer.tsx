@@ -52,7 +52,7 @@ const Footer: React.FC = () => {
                                         <li><a href="#"><img src="Photos/icons/x-footer.svg" alt="Twitter" /></a></li>
                                         <li><a href="#"><img src="Photos/icons/instagram-footer.svg" alt="Instagram" /></a></li>
                                         <li><a href="#"><img src="Photos/icons/linkdin-footer.svg" alt="LinkedIn" /></a></li>
-                                        <li><a href="#"><img src="Photos/icons/youtube-inverted-color.svg" alt="YouTube" /></a></li>
+                                        <li><a href="#"><img src="Photos/icons/youTube-footer.svg" alt="YouTube" /></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -82,7 +82,7 @@ const Footer: React.FC = () => {
                             <a href="#"><img src="Photos/icons/x-inverted-color.svg" alt="Twitter" className={styles.mobileFooterIcon} /></a>
                             <a href="#"><img src="Photos/icons/instagram-inverted-color.svg" alt="Instagram" className={styles.mobileFooterIcon} /></a>
                             <a href="#"><img src="Photos/icons/linkdin-inverted-color.svg" alt="LinkedIn" className={styles.mobileFooterIcon} /></a>
-                            <a href="#"><img src="Photos/icons/youtube-inverted-color.svg" alt="YouTube" className={styles.mobileFooterIcon} /></a>
+                            <a href="#"><img src="Photos/icons/youTube-inverted-color.svg" alt="YouTube" className={styles.mobileFooterIcon} /></a>
                         </div>
                     </div>
                     <div className={styles.mobileFooterLinks}>
