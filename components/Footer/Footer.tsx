@@ -52,7 +52,7 @@ const Footer: React.FC = () => {
                                         <li><a href="#"><img src="Photos/icons/x-footer.svg" alt="Twitter" /></a></li>
                                         <li><a href="#"><img src="Photos/icons/instagram-footer.svg" alt="Instagram" /></a></li>
                                         <li><a href="#"><img src="Photos/icons/linkdin-footer.svg" alt="LinkedIn" /></a></li>
-                                        <li><a href="#"><img src="Photos/icons/youtube-footer.svg" alt="YouTube" /></a></li>
+                                        <li><a href="#"><img src="Photos/icons/youtube-inverted-color.svg" alt="YouTube" /></a></li>
                                     </ul>
                                 </div>
                             </div>

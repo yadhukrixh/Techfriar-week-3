@@ -52,32 +52,32 @@ const NavBar: React.FC = () => {
                             </Link>
                         </li>
                         <li>
-                            <Link href="/offers" className={styles.navLink}>
+                            <Link href="#" className={styles.navLink}>
                             Offers
                             </Link>
                         </li>
                         <li>
-                            <Link href="/corporate" className={styles.navLink}>
+                            <Link href="#" className={styles.navLink}>
                             Corporate
                             </Link>
                         </li>
                         <li>
-                            <Link href="/personal" className={styles.navLink}>
+                            <Link href="#" className={styles.navLink}>
                             Personal
                             </Link>
                         </li>
                         <li>
-                            <Link href="/locations" className={styles.navLink}>
+                            <Link href="#" className={styles.navLink}>
                             Locations
                             </Link>
                         </li>
                         <li>
-                            <Link href="/contact" className={styles.navLink}>
+                            <Link href="#" className={styles.navLink}>
                             Contact Us
                             </Link>
                         </li>
                         <li className={styles.messagesLi}>
-                            <Link href="/notifications" className={styles.messages}>
+                            <Link href="#" className={styles.messages}>
                             <i className={`ri-notification-2-fill ${styles.bell}`}></i>
                             <div
                                 className={styles.notificationCount}
@@ -86,7 +86,7 @@ const NavBar: React.FC = () => {
                             </Link>
                         </li>
                         <li>
-                            <Link href="/profile" className={styles.navLink}>
+                            <Link href="#" className={styles.navLink}>
                             <span className={styles.profile}>
                                 <div className={styles.profilePic}>J</div>John Doe
                             </span>
