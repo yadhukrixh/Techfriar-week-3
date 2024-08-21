@@ -79,7 +79,7 @@ const Footer: React.FC = () => {
                         </div>
                         <div className={styles.mobileFooterIcons}>
                             <a href="#"><img src="Photos/icons/facebook-inverted-color.svg" alt="Facebook" className={styles.mobileFooterIcon} /></a>
-                            <a href="#"><img src="Photos/icons/x-inverted-color.svg" alt="Twitter" className={styles.mobileFooterIcon} /></a>
+                            <a href="#"><img src="Photos/icons/X-inverted-color.svg" alt="Twitter" className={styles.mobileFooterIcon} /></a>
                             <a href="#"><img src="Photos/icons/instagram-inverted-color.svg" alt="Instagram" className={styles.mobileFooterIcon} /></a>
                             <a href="#"><img src="Photos/icons/linkdin-inverted-color.svg" alt="LinkedIn" className={styles.mobileFooterIcon} /></a>
                             <a href="#"><img src="Photos/icons/youTube-inverted-color.svg" alt="YouTube" className={styles.mobileFooterIcon} /></a>
