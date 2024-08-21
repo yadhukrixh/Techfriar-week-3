@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import NavBar from "../components/NavBar/NavBar";
+import SlideInButton from "@/components/SlideInButtons/SlideInButton";
 
 export const metadata: Metadata = {
   title: "Diamond Lease",
@@ -17,6 +18,7 @@ export default function RootLayout({
       <body>
         <NavBar />
         {children}
+        <SlideInButton/>
       </body>
     </html>
   );

@@ -1,0 +1,12 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    margin-top: calc(140px - 1dvw);
+}
+
+@media(max-width:650px){
+    .main{
+        margin-top: 100px;
+    }
+}

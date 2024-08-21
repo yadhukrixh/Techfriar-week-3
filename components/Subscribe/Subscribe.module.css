@@ -1,5 +1,4 @@
 .subscribe {
-    margin-top: calc(2.77dvw);
     margin-left: calc(2dvw);
     display: flex;
     flex-direction: row;
@@ -9,7 +8,6 @@
 
 .offersSubscribe {
     margin-left: calc(7dvw);
-    margin-top: calc(5.41dvw);
     display: flex;
     flex-direction: column;
 }
@@ -148,7 +146,7 @@
     }
 
     .offersSubscribe {
-        margin-top: 20px;
+        margin-left: 0 !important;
     }
 
     .offersSubscribe h2 {

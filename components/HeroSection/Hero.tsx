@@ -7,12 +7,6 @@ import MobilePickup from '../MobilePickup/MobilePickup';
 
 const HeroSection: React.FC = () => {
 
-    
-
-
-  
-
-
   return (
     <section className={styles.hero}>
         <div className={styles.quickPickup}>
@@ -56,14 +50,6 @@ const HeroSection: React.FC = () => {
         </div>
 
         <div style={{display:"none"}} className={styles.mobilePickup}><MobilePickup/></div>
-        
-
-        
-
-
-
-
-
     </section>
   );
 };
