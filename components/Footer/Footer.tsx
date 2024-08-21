@@ -82,17 +82,17 @@ const Footer: React.FC = () => {
                         </div>
                     </div>
                     <div className={styles.mobileFooterLinks}>
-                        <Link href="#"><a>Home</a></Link>
-                        <Link href="#"><a>Offers</a></Link>
-                        <Link href="#"><a>Career</a></Link>
-                        <Link href="#"><a>About Us</a></Link>
-                        <Link href="#"><a>Locations</a></Link>
-                        <Link href="#"><a>FAQ</a></Link>
-                        <Link href="#"><a>Terms & Conditions</a></Link>
-                        <Link href="#"><a>Service Request</a></Link>
-                        <Link href="#"><a>Privacy Policy</a></Link>
-                        <Link href="#"><a>Services</a></Link>
-                        <Link href="#"><a>Contact Us</a></Link>
+                        <Link href="#">Home</Link>
+                        <Link href="#">Offers</Link>
+                        <Link href="#">Career</Link>
+                        <Link href="#">About Us</Link>
+                        <Link href="#">Locations</Link>
+                        <Link href="#">FAQ</Link>
+                        <Link href="#">Terms & Conditions</Link>
+                        <Link href="#">Service Request</Link>
+                        <Link href="#">Privacy Policy</Link>
+                        <Link href="#">Services</Link>
+                        <Link href="#">Contact Us</Link>
                     </div>
                 </div>
 
