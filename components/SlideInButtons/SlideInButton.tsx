@@ -1,5 +1,5 @@
-import React from 'react'
-import styles from "./SlideInButton.module.css"
+import React from "react";
+import styles from "./SlideInButton.module.css";
 const SlideInButton = () => {
   return (
     <div>
@@ -17,7 +17,7 @@ const SlideInButton = () => {
         </button>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default SlideInButton
+export default SlideInButton;

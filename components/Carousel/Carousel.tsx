@@ -1,7 +1,7 @@
-"use client"
+"use client";
 
-import React, { useState, useEffect, useRef } from 'react';
-import styles from './Carousel.module.css';
+import React, { useState, useEffect, useRef } from "react";
+import styles from "./Carousel.module.css";
 
 interface Image {
   url: string;
@@ -15,31 +15,31 @@ interface Image {
 
 const images: Image[] = [
   {
-    url: 'Photos/carousal.svg',
+    url: "Photos/carousal.svg",
     caption: {
-      beforeButtonText: 'Receive a guaranteed',
-      button: 'GIFT VOUCHER',
-      afterButtonText: ' on a monthly hire or lease',
+      beforeButtonText: "Receive a guaranteed",
+      button: "GIFT VOUCHER",
+      afterButtonText: " on a monthly hire or lease",
     },
-    link: 'https://example.com/',
+    link: "https://example.com/",
   },
   {
-    url: 'Photos/carousal.svg',
+    url: "Photos/carousal.svg",
     caption: {
-      beforeButtonText: 'Receive a guaranteed',
-      button: 'GIFT VOUCHER',
-      afterButtonText: ' on a monthly hire or lease',
+      beforeButtonText: "Receive a guaranteed",
+      button: "GIFT VOUCHER",
+      afterButtonText: " on a monthly hire or lease",
     },
-    link: 'https://example.com/',
+    link: "https://example.com/",
   },
   {
-    url: 'Photos/carousal.svg',
+    url: "Photos/carousal.svg",
     caption: {
-      beforeButtonText: 'Receive a guaranteed',
-      button: 'GIFT VOUCHER',
-      afterButtonText: ' on a monthly hire or lease',
+      beforeButtonText: "Receive a guaranteed",
+      button: "GIFT VOUCHER",
+      afterButtonText: " on a monthly hire or lease",
     },
-    link: 'https://example.com/',
+    link: "https://example.com/",
   },
 ];
 
@@ -57,11 +57,14 @@ const Carousel: React.FC = () => {
 
   const showSlide = (index: number) => {
     const totalSlides = images.length;
-    const newSlideIndex = index >= totalSlides ? 0 : index < 0 ? totalSlides - 1 : index;
+    const newSlideIndex =
+      index >= totalSlides ? 0 : index < 0 ? totalSlides - 1 : index;
     setCurrentSlide(newSlideIndex);
 
     if (carouselInnerRef.current) {
-      carouselInnerRef.current.style.transform = `translateX(-${newSlideIndex * 100}%)`;
+      carouselInnerRef.current.style.transform = `translateX(-${
+        newSlideIndex * 100
+      }%)`;
     }
   };
 
@@ -103,7 +106,7 @@ const Carousel: React.FC = () => {
           >
             <div className={styles.carouselCaption}>
               <p>
-                {image.caption.beforeButtonText}{' '}
+                {image.caption.beforeButtonText}{" "}
                 <button>{image.caption.button}</button>
                 {image.caption.afterButtonText}
               </p>
@@ -116,7 +119,7 @@ const Carousel: React.FC = () => {
         {images.map((_, index) => (
           <div
             key={index}
-            className={currentSlide === index ? styles.active : ''}
+            className={currentSlide === index ? styles.active : ""}
             onClick={() => showSlide(index)}
           ></div>
         ))}

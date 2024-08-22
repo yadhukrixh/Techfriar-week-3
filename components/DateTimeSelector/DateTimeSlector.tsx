@@ -1,12 +1,12 @@
-"use client"
+"use client";
 
-import React, { useState, useRef, useEffect } from 'react';
-import styles from './DateTimeSelector.module.css';
+import React, { useState, useRef, useEffect } from "react";
+import styles from "./DateTimeSelector.module.css";
 
 const DateTimeSelector: React.FC = () => {
   const [showDateTimePicker, setShowDateTimePicker] = useState(false);
-  const [selectedDate, setSelectedDate] = useState<string>('');
-  const [selectedTime, setSelectedTime] = useState<string>('');
+  const [selectedDate, setSelectedDate] = useState<string>("");
+  const [selectedTime, setSelectedTime] = useState<string>("");
   const dateTimeSelectorRef = useRef<HTMLDivElement>(null);
   const dateTimePickerRef = useRef<HTMLDivElement>(null);
 
@@ -20,14 +20,16 @@ const DateTimeSelector: React.FC = () => {
       }
     };
 
-    document.addEventListener('click', handleClickOutside);
-    return () => document.removeEventListener('click', handleClickOutside);
+    document.addEventListener("click", handleClickOutside);
+    return () => document.removeEventListener("click", handleClickOutside);
   }, []);
 
   useEffect(() => {
     const now = new Date();
-    setSelectedDate(now.toLocaleDateString('en-GB'));
-    setSelectedTime(now.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' }));
+    setSelectedDate(now.toLocaleDateString("en-GB"));
+    setSelectedTime(
+      now.toLocaleTimeString("en-US", { hour: "2-digit", minute: "2-digit" })
+    );
   }, []);
 
   const toggleDateTimePicker = () => {
@@ -35,23 +37,34 @@ const DateTimeSelector: React.FC = () => {
   };
 
   const handleSetDateTime = () => {
-    const dateInput = (document.getElementById('dateInput') as HTMLInputElement).value;
-    const timeInput = (document.getElementById('timeInput') as HTMLInputElement).value;
+    const dateInput = (document.getElementById("dateInput") as HTMLInputElement)
+      .value;
+    const timeInput = (document.getElementById("timeInput") as HTMLInputElement)
+      .value;
 
     if (dateInput) {
-      setSelectedDate(new Date(dateInput).toLocaleDateString('en-GB'));
+      setSelectedDate(new Date(dateInput).toLocaleDateString("en-GB"));
     }
     if (timeInput) {
-      setSelectedTime(new Date(`1970-01-01T${timeInput}`).toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' }));
+      setSelectedTime(
+        new Date(`1970-01-01T${timeInput}`).toLocaleTimeString("en-US", {
+          hour: "2-digit",
+          minute: "2-digit",
+        })
+      );
     }
     setShowDateTimePicker(false);
   };
 
   return (
-    <div className={styles.pickupTime} ref={dateTimeSelectorRef} >
+    <div className={styles.pickupTime} ref={dateTimeSelectorRef}>
       <div className={styles.dateTimeSelector} onClick={toggleDateTimePicker}>
         <div className={styles.icon}>
-          <img src="Photos/icons/calender.svg" alt="Calendar Icon" className={styles.calenderIcon} />
+          <img
+            src="Photos/icons/calender.svg"
+            alt="Calendar Icon"
+            className={styles.calenderIcon}
+          />
         </div>
         <div className={styles.dateTime}>
           <span className={styles.date}>{selectedDate}</span>

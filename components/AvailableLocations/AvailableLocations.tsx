@@ -1,4 +1,4 @@
-import styles from './AvailableLocations.module.css';
+import styles from "./AvailableLocations.module.css";
 
 export default function AvailableLocations() {
   return (
@@ -35,7 +35,10 @@ export default function AvailableLocations() {
         <span className={styles.verticalLine}></span>
 
         <div className={styles.eachLocation}>
-          <img src="Photos/icons/location-pin-boldRed.svg" alt="Ras Al Khaima" />
+          <img
+            src="Photos/icons/location-pin-boldRed.svg"
+            alt="Ras Al Khaima"
+          />
           <p>Ras Al Khaima</p>
         </div>
       </div>
